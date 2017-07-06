@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+	"phantomjs-prebuilt-that-works": "3.*",
+	"selenium-webdriver": "3.*"
+  }
+}
