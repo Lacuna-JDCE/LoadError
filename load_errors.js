@@ -3,7 +3,7 @@
 const file_system = require('fs'),
       Browser = require('./browser.js');
 
-const error_names = ['SyntaxError', 'ReferenceError', 'RangeError', 'TypeError', 'EvalError', 'URIError', 'XMLHttpRequest cannot load', 'net::ERR_'];
+const error_names = ['SyntaxError', 'ReferenceError', 'RangeError', 'TypeError', 'EvalError', 'URIError', 'XMLHttpRequest cannot load', 'net::ERR_', 'Uncaught '];
 
 let url = process.argv[2],
     timeout = Math.max(parseInt(process.argv[3], 10), 5000);
